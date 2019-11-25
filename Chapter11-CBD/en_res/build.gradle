@@ -1,0 +1,5 @@
+apply from: "../build_config/base.gradle"
+
+dependencies {
+    api project(':en_base')
+}

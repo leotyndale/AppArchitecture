@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Chapter3-MVC.iml" filepath="$PROJECT_DIR$/.idea/modules/Chapter3-MVC.iml" group="Chapter3-MVC" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvc/Chapter3-MVC-mvc.iml" filepath="$PROJECT_DIR$/.idea/modules/mvc/Chapter3-MVC-mvc.iml" group="Chapter3-MVC/mvc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvc-active/Chapter3-MVC-mvc-active.iml" filepath="$PROJECT_DIR$/.idea/modules/mvc-active/Chapter3-MVC-mvc-active.iml" group="Chapter3-MVC/mvc-active" />
+      <module fileurl="file://$PROJECT_DIR$/EnDiary.iml" filepath="$PROJECT_DIR$/EnDiary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvc/mvc.iml" filepath="$PROJECT_DIR$/mvc/mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvc-active/mvc-active.iml" filepath="$PROJECT_DIR$/mvc-active/mvc-active.iml" />
+    </modules>
+  </component>
+</project>

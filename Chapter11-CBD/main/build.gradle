@@ -1,0 +1,10 @@
+apply plugin: 'com.android.application'
+
+apply from: "../build_config/base.gradle"
+
+dependencies {
+    if (!isDebug.toBoolean()) {
+        api project(":diary_list")
+        api project(":diary_edit")
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EnDiary.iml" filepath="$PROJECT_DIR$/EnDiary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diary_edit/diary_edit.iml" filepath="$PROJECT_DIR$/diary_edit/diary_edit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diary_list/diary_list.iml" filepath="$PROJECT_DIR$/diary_list/diary_list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/en_base/en_base.iml" filepath="$PROJECT_DIR$/en_base/en_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/en_common/en_common.iml" filepath="$PROJECT_DIR$/en_common/en_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/en_res/en_res.iml" filepath="$PROJECT_DIR$/en_res/en_res.iml" />
+    </modules>
+  </component>
+</project>

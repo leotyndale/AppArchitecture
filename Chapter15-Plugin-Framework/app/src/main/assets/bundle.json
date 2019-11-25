@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "bundles": [
+    {
+      "uri": "main",
+      "pkg": "com.imuxuan.art"
+    },
+    {
+      "uri": "diary_list",
+      "pkg": "com.imuxuan.art.diary.list",
+      "type": "app"
+    },
+    {
+      "uri": "diary_edit",
+      "pkg": "com.imuxuan.art.diary.edit",
+      "type": "app"
+    },
+    {
+      "uri": "en_common",
+      "pkg": "com.imuxuan.art.common",
+      "type": "lib"
+    }
+  ]
+}

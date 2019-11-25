@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.imuxuan.art.diary.edit">
+
+    <application>
+
+        <activity android:name=".DiaryEditActivity" />
+
+    </application>
+
+</manifest>

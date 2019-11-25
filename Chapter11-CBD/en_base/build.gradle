@@ -1,0 +1,7 @@
+apply from: "../build_config/base.gradle"
+
+dependencies {
+    api "com.android.support:appcompat-v7:${libs.supportlibs}"
+    api "com.android.support:design:${libs.supportlibs}"
+    api "com.google.code.gson:gson:${libs.gson}"
+}

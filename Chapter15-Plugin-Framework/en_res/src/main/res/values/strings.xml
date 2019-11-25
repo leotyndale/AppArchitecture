@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">我的日记</string>
+
+    <string name="add">写日记</string>
+    <string name="edit">修改日记</string>
+    <string name="list">日记列表</string>
+
+    <string name="success">Success!</string>
+    <string name="error">Error!</string>
+    <string name="developing">暂未开放!</string>
+
+    <string name="menu_done">完成</string>
+    <string name="menu_write">写日记</string>
+    <string name="menu_delete">删除日记</string>
+    <string name="menu_edit">修改日记</string>
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="title">标题：</string>
+    <string name="desc">详情：</string>
+</resources>

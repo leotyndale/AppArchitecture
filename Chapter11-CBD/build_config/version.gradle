@@ -1,0 +1,17 @@
+ext {
+    androidConfig = [
+            compileSdkVersion       : 26,
+            minSdkVersion           : 14,
+            targetSdkVersion        : 28,
+            versionCode             : 1,
+            versionName             : '1.0',
+    ]
+
+    libs = [
+            gradle                  : '3.0.0',
+            supportlibs             : '26.1.0',
+            gson                    : '2.8.5',
+            arouterApi              : '1.4.1',
+            arouterCompiler         : '1.2.2'
+    ]
+}

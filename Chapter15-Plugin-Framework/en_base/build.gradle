@@ -1,0 +1,8 @@
+apply plugin: 'com.android.library'
+apply from: "../build_config/base.gradle"
+
+dependencies {
+    compile "com.android.support:appcompat-v7:${libs.supportlibs}"
+    compile "com.android.support:design:${libs.supportlibs}"
+    compile "com.google.code.gson:gson:${libs.gson}"
+}

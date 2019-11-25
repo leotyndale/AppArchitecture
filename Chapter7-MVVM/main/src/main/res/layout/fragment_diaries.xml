@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--DataBinding的数据，只能有一对data标签-->
+    <data>
+        <!--导入包-->
+        <import type="com.imuxuan.art.main.DiariesViewModel" />
+
+        <import type="android.support.v7.widget.LinearLayoutManager" />
+
+        <!--变量标签，在data标签中可以存在多个variable标签-->
+        <variable
+            name="viewModel"
+            type="DiariesViewModel" />
+
+        <variable
+            name="layoutManager"
+            type="LinearLayoutManager" />
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--列表控件-->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/diaries_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:data="@{viewModel.data}"
+            app:layoutManager="@{layoutManager}" />
+
+    </RelativeLayout>
+</layout>
+

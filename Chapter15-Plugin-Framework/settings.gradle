@@ -1,0 +1,1 @@
+include ':app', ':en_base', ':en_common', ':en_res', ':diary_list', ':diary_edit'

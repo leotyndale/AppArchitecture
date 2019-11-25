@@ -1,0 +1,32 @@
+def libs = rootProject.ext.libs
+
+buildscript {
+    apply from: "build_config/version.gradle"
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:${libs.gradle}"
+        classpath "net.wequick.tools.build:gradle-small:${libs.small}"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+apply plugin: 'net.wequick.small'
+
+small {
+    bundles 'app', ['diary_list', 'diary_edit']
+    bundles 'lib', 'en_common'
+}

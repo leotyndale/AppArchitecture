@@ -1,0 +1,7 @@
+apply plugin: 'com.android.application'
+
+apply from: "../build_config/base.gradle"
+
+dependencies {
+    compile project(':en_res')
+}

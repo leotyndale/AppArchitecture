@@ -1,0 +1,28 @@
+if (isDebug.toBoolean()) {
+    apply plugin: 'com.android.application'
+} else {
+    apply plugin: 'com.android.library'
+}
+
+apply from: "../build_config/base.gradle"
+
+android {
+    defaultConfig.javaCompileOptions {
+        annotationProcessorOptions {
+            arguments = [AROUTER_MODULE_NAME: project.getName()]
+        }
+    }
+
+    sourceSets.main {
+        if (isDebug.toBoolean()) {
+            manifest.srcFile 'src/main/debug/AndroidManifest.xml'
+        } else {
+            manifest.srcFile 'src/main/release/AndroidManifest.xml'
+        }
+    }
+}
+
+dependencies {
+    api project(':en_common')
+    annotationProcessor "com.alibaba:arouter-compiler:${libs.arouterCompiler}"
+}

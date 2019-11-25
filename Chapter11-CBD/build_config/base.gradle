@@ -1,0 +1,28 @@
+def androidConfig = rootProject.ext.androidConfig
+def libs = rootProject.ext.libs
+
+if (!getPlugins().hasPlugin("com.android.library") && !getPlugins().hasPlugin("com.android.application")) {
+    apply plugin: 'com.android.library'
+}
+
+android {
+    compileSdkVersion androidConfig.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion androidConfig.minSdkVersion
+        targetSdkVersion androidConfig.targetSdkVersion
+        versionCode androidConfig.versionCode
+        versionName androidConfig.versionName
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+}
