@@ -1,7 +1,7 @@
 # AppArchitecture
 
 [![Stars](https://img.shields.io/github/stars/leotyndale/AppArchitecture?style=flat-square&color=f59e0b)](https://github.com/leotyndale/AppArchitecture/stargazers)
-[![Book](https://img.shields.io/badge/Book-%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E5%AE%9E%E6%88%98-f59e0b?style=flat-square)](https://blog.imuxuan.com/archives/116)
+[![Book](https://img.shields.io/badge/Book-%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E5%AE%9E%E6%88%98-f59e0b?style=flat-square&logo=bookstack&logoColor=white)](https://blog.imuxuan.com/archives/116)
 [![Blog](https://img.shields.io/badge/Blog-ForDeer-0ea5e9?style=flat-square)](https://blog.imuxuan.com/)
 [![Website](https://img.shields.io/badge/Website-imuxuan.com-10b981?style=flat-square)](https://imuxuan.com/)
 
