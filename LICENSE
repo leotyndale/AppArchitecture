@@ -1,0 +1,30 @@
+MIT License (Open-Source Code & Original Playbook Content)
+
+Copyright (c) 2019–2026 Yunpeng Li (leotyndale)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+Note on Published Book Copyright:
+The companion source code (`Chapter*` directories) and the independent 2026
+engineering guides under `playbook/` are open-sourced under the MIT License above.
+The published print/ebook text and illustrations of 《移动开发架构设计实战》
+(Publishing House of Electronics Industry / 电子工业出版社, ISBN 9787121375071)
+remain under the copyright of the author and publisher and are NOT reproduced
+in this repository.
